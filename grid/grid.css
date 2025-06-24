@@ -1,0 +1,60 @@
+
+.parentContainer{
+    display: grid;
+    grid-template-columns: 200px repeat(2, 1fr);
+    height: 400px;
+    gap: 10px;
+    background-color: aquamarine;
+    grid-template-areas: 
+    "one five two"
+    "six three nine"
+    "seven eight four";
+    
+    
+}
+
+.boxOne{
+    background-color: green;
+    /* height: 100px; */
+    grid-area: one;
+}
+.boxTwo{
+    background-color: yellow;
+    /* height: 100px; */
+    grid-area: two;
+}
+.boxThree{
+    background-color: blue;
+    /* height: 100px; */
+    grid-area: three;
+}
+.boxFour{
+    background-color: brown;
+    /* height: 100px; */
+    grid-area: four;
+}
+.boxFive{
+    background-color: cyan;
+    /* height: 100px; */
+    grid-area: five;
+}
+.boxSix{
+    background-color: violet;
+    /* height: 100px; */
+    grid-area: six;
+}
+.boxSeven{
+    background-color: red;
+    /* height: 100px; */
+    grid-area: seven;
+}
+.boxEight{
+    background-color: lawngreen;
+    /* height: 100px; */
+    grid-area: eight;
+}
+.boxNine{
+    background-color: rgb(66, 104, 28);
+    /* height: 100px; */
+    grid-area: nine;
+}

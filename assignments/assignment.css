@@ -1,0 +1,23 @@
+.one{
+    background-color: rgb(74, 117, 74);
+    height: 100vh;
+    text-align: center; 
+    padding-top: 50%;
+    margin: 0%;
+
+    
+ h1{
+    color:aliceblue;
+    font-size: 50px;
+    margin: 0%;
+ }   
+}
+.two{
+    background-color: lightblue;
+     height: 100vh;
+     margin: 0%;
+}
+.three{
+    background-color: rgb(226, 192, 151);
+     height: 100vh;
+}

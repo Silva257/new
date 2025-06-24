@@ -1,0 +1,36 @@
+.parentCont{
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 1fr);
+    height: 100vh;
+    grid-template-areas: 
+    "header header header"
+    "sidebar main main"
+    "sidebar extra extra"
+    "footer footer footer";
+    grid-template-rows: auto 1fr auto auto;
+    gap: 10px;
+
+}
+.child1{
+    background-color: aqua;
+    grid-area: header;
+    font-size: 50px;
+}
+.child2{
+    background-color: rgb(144, 148, 148);
+    grid-area: sidebar;
+}
+.child3{
+    background-color: rgb(222, 231, 231);
+    grid-area: main;
+}
+.child4{
+    background-color: rgb(129, 72, 196);
+    grid-area: extra;
+    height: 100px;
+}
+.child5{
+    background-color: rgb(219, 88, 88);
+    grid-area: footer;
+    height: 60px;
+}

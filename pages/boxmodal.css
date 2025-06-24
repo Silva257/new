@@ -1,0 +1,31 @@
+.boxTitle{
+    color: blue;
+}
+.box{
+   color: blueviolet; 
+   font-size: 50px;
+   font-weight: 600;
+   background-color: aquamarine;
+   padding: 20px;
+   max-width: 150px;
+   border: 10px solid green;
+   border-radius: 20px;
+   text-align: center;
+   
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin: 5px;
+    display: block;
+
+}
+
+button:hover{
+    background-color: purple;
+}
+
+button:active{
+    outline: 10px solid green;
+}

@@ -1,0 +1,33 @@
+.parent{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 20% repeat(3, 1fr);
+    height: 100vh;
+    grid-template-areas: 
+    "header header header header"
+    "ads article article article"
+    "nav article article article"
+    "nav footer footer footer";
+    grid-template-rows: 15% 150px 1fr 80px;
+
+}
+.child1{
+    background-color: rgb(139, 184, 134);
+    grid-area: header;
+}
+.child2{
+     background-color: rgb(139, 184, 134);
+     grid-area: ads;
+}
+.child3{
+     background-color: rgb(139, 184, 134);
+     grid-area: article;
+}
+.child4{
+     background-color: rgb(139, 184, 134);
+     grid-area: nav;
+}
+.child5{
+     background-color: rgb(83, 121, 79);
+     grid-area: footer;
+}

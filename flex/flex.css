@@ -1,0 +1,25 @@
+.parentContainer{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.childC{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 20px;
+}
+.box{
+    background-color: rgb(184, 160, 160);
+    width: 300px;
+    margin: 10px;
+    height: 150px;
+    place-content: center;
+    padding-left: 20%;
+    box-shadow: 10 10 20px rgb(6, 53, 35);
+}

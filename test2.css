@@ -1,0 +1,11 @@
+ul{
+    color:rgba(0, 0, 0, 10);
+    font-size: 30px;
+    
+}
+.song-bibaryahe{
+    background-color: purple; 
+    width: 300px;
+     border-radius: 15px; 
+     place-items: center;
+}
