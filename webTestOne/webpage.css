@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 240, 234);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    /* border-radius: 15px;
+    border: 10 px solid; */
+
+   
+}
+ .kyaka-head{
+        font-size: 45px;
+    }
+    h2{
+        color: green;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+
+    nav{
+        padding-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+   /* ul{
+    list-style-type: none;
+   }  */
+   .mynav li{
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 5px;
+    
+   }
+  .mynav li a{
+     text-decoration: none;
+   }
+
+   .block{
+    width: 30vw;
+    height: 30vh;
+    background-color: blueviolet;
+    margin: 10px;
+    float: left;
+   }
+   .right{
+    float: right;
+   }
+
+   p{
+    margin: 10px;
+    text-indent: 20px;
+   }
+   .sec{
+    /* background-color: aquamarine; */
+    /* overflow: auto; */
+    display: flow-root;
+   }

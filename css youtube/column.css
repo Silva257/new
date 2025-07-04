@@ -1,0 +1,25 @@
+.columns{
+    column-count: 4;
+    column-width: 250px;
+    column-rule: 4px solid green;
+    column-gap: 15px;
+    font-size: 20px;
+}
+.columns :nth-child(2){
+    color: rgb(114, 134, 127);
+}
+.columns p{
+    margin-top: 0;
+}
+.columns h2{
+    background-color: aquamarine;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    break-inside: avoid;
+}
+h1{
+    font-size: 50px;
+    background-color: darkgrey;
+    text-align: center;
+}
