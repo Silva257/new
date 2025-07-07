@@ -1,0 +1,40 @@
+main{
+ display: flex; 
+ min-height: 400px;  
+ max-width: 600px;
+ border: 1px solid blue;
+ background-color: beige;
+ gap: 5px;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ margin: 10px auto;
+ flex-wrap: wrap;
+ align-content: center;
+}
+.box{
+    background-color: black;
+    color: white;
+    /* min-width: 80px; */
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+
+    /* flex-basis: 50px;
+    flex-grow: 1;
+    flex-shrink: 1; */
+
+    flex: 1 1 50px;
+     /* this is the same as the above commented code */
+}
+.box:nth-child(2){
+    flex-grow: 2;
+    /* flex-shrink: 2; */
+    order: -1 
+    /* that property: order will take number 2 to one; and vice versa */
+}
+
+/* go to the website called : froggy.com to enhance your practice about flexbox */
